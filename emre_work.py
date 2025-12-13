@@ -1,3 +1,5 @@
 import pandas as pd
-df = pd.read_csv('Phishing_URL_ds_cleaned.csv')
+import numpy as np
 
+df = pd.read_csv('Phishing_URL_ds_cleaned.csv')
+print(df.describe)
