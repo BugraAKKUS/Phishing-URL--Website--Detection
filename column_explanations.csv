@@ -1,0 +1,57 @@
+feature_name,english_description
+FILENAME / id,Name of the file (can be ignored).
+URL,The full URL being analyzed.
+URLLength,Total character length of the URL.
+Domain,"The domain name (e.g., google.com)."
+DomainLength,Character length of the domain name.
+IsDomainIP,Checks if the domain is an IP address (0/1).
+TLD,"Top-Level Domain (e.g., .com, .net, .org)."
+URLSimilarityIndex,Similarity index with known legitimate sites.
+CharContinuationRate,Rate of continuing characters (pattern repetition).
+TLDLegitimateProb,Probability of the TLD being legitimate.
+URLCharProb,Probability distribution of characters in the URL.
+TLDLength,Character length of the Top-Level Domain.
+NoOfSubDomain,Number of subdomains present in the URL.
+Obfuscation,Indicates if obfuscation techniques are used (0/1).
+NoOfObfuscatedChar,Number of obfuscated (hidden/mixed) characters.
+ObfuscationRate,Ratio of obfuscated characters to total length.
+NoOfLetters,Total count of letters in the URL.
+LetterRatio,Ratio of letters in the URL.
+NoOfDigits,Total count of digits (numbers) in the URL.
+DigitRatio,Ratio of digits in the URL.
+NoOfEquals,Count of '=' signs (used in query parameters).
+NoOfQMark,Count of '?' signs (starts query string).
+NoOfAmpersand,Count of '&' signs (separates parameters).
+NoOfOtherSpecialChars,Count of other special characters.
+SpecialCharRatio,Ratio of special characters in the URL.
+IsHTTPS,Indicates if HTTPS protocol is used (0/1).
+LineOfCode,Total lines of code in the webpage source.
+LargestLineLength,Length of the longest line of code.
+HasTitle,Checks if the webpage has a title tag (0/1).
+Title,The text content of the page title.
+DomainTitleMatchScore,Match score between domain name and page title.
+URLTitleMatchScore,Match score between URL and page title.
+HasFavicon,Checks if the site has a favicon (0/1).
+Robots,Checks for the existence of robots.txt (0/1).
+IsResponsive,Checks if the page is mobile responsive (0/1).
+NoOfURLRedirect,Number of URL redirects.
+NoOfSelfRedirect,Number of redirects to the same page.
+HasDescription,Checks if a meta description exists (0/1).
+NoOfPopup,Number of pop-up windows on the page.
+NoOfiFrame,Number of iFrames used on the page.
+HasExternalFormSubmit,Checks if forms submit to external domains (0/1).
+HasSocialNet,Checks for links to social media networks (0/1).
+HasSubmitButton,Checks for the presence of a submit button (0/1).
+HasHiddenFields,Checks for hidden fields in forms (0/1).
+HasPasswordField,Checks for password input fields (0/1).
+Bank,Checks for banking-related keywords/content (0/1).
+Pay,Checks for payment-related keywords/content (0/1).
+Crypto,Checks for crypto-related keywords/content (0/1).
+HasCopyrightInfo,Checks for copyright information (0/1).
+NoOfImage,Total number of images on the webpage.
+NoOfCSS,Total number of CSS files linked.
+NoOfJS,Total number of JavaScript files linked.
+NoOfSelfRef,Number of links pointing to the same domain.
+NoOfEmptyRef,"Number of empty links (e.g., href='#')."
+NoOfExternalRef,Number of links pointing to external domains.
+Label,"Target Variable (0: Phishing, 1: Legitimate)"
